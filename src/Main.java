@@ -7,6 +7,7 @@ public class Main {
         char oper = operation();
         int result = calc(num1, num2, oper);
         System.out.println("Результат операции: " + result);
+        System.out.println("Опера");
     }
 
     public static int number() {
